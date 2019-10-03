@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="HelloWorld.MHMayTinh"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Calculator - C#">
+    <ContentPage.Content>
+        <Grid BackgroundColor="Black">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <Label
+                x:Name="txtResult"
+                Grid.Row="0"
+                FontSize="100"
+                HorizontalOptions="EndAndExpand"
+                Text="0"
+                TextColor="White"
+                VerticalOptions="End" />
+
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                <Button
+                    x:Name="btnC"
+                    Grid.Row="0"
+                    Grid.Column="0"
+                    BackgroundColor="#dddddd"
+                    Clicked="BtnC_Clicked"
+                    Text="C" />
+
+                <Button
+                    x:Name="btnOpposite"
+                    Grid.Row="0"
+                    Grid.Column="1"
+                    BackgroundColor="#dddddd"
+                    Clicked="BtnOpposite_Clicked"
+                    Text="+/-" />
+
+                <Button
+                    x:Name="btnMod"
+                    Grid.Row="0"
+                    Grid.Column="2"
+                    BackgroundColor="#dddddd"
+                    Clicked="BtnMod_Clicked"
+                    Text="%" />
+
+                <Button
+                    x:Name="btnDiv"
+                    Grid.Row="0"
+                    Grid.Column="3"
+                    BackgroundColor="Orange"
+                    Clicked="BtnDiv_Clicked"
+                    Text="DIV"
+                    TextColor="White" />
+
+                <Button
+                    x:Name="btnNum7"
+                    Grid.Row="1"
+                    Grid.Column="0"
+                    BackgroundColor="#efefef"
+                    Clicked="BtnNum7_Clicked"
+                    Text="7" />
+
+                <Button
+                    x:Name="btnNum8"
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    BackgroundColor="#efefef"
+                    Clicked="BtnNum8_Clicked"
+                    Text="8" />
+
+                <Button
+                    x:Name="btnNum9"
+                    Grid.Row="1"
+                    Grid.Column="2"
+                    BackgroundColor="#efefef"
+                    Clicked="BtnNum9_Clicked"
+                    Text="9" />
+
+                <Button
+                    x:Name="btnMulti"
+                    Grid.Row="1"
+                    Grid.Column="3"
+                    BackgroundColor="Orange"
+                    Clicked="BtnMulti_Clicked"
+                    Text="X"
+                    TextColor="White" />
+
+                <Button
+                    x:Name="btnNum4"
+                    Grid.Row="2"
+                    Grid.Column="0"
+                    BackgroundColor="#efefef"
+                    Clicked="BtnNum4_Clicked"
+                    Text="4" />
+
+                <Button
+                    x:Name="btnNum5"
+                    Grid.Row="2"
+                    Grid.Column="1"
+                    BackgroundColor="#efefef"
+                    Clicked="BtnNum5_Clicked"
+                    Text="5" />
+
+                <Button
+                    x:Name="btnNum6"
+                    Grid.Row="2"
+                    Grid.Column="2"
+                    BackgroundColor="#efefef"
+                    Clicked="BtnNum6_Clicked"
+                    Text="6" />
+
+                <Button
+                    x:Name="btnSub"
+                    Grid.Row="2"
+                    Grid.Column="3"
+                    BackgroundColor="Orange"
+                    Clicked="BtnSub_Clicked"
+                    Text="-"
+                    TextColor="White" />
+
+                <Button
+                    x:Name="btnNum1"
+                    Grid.Row="3"
+                    Grid.Column="0"
+                    BackgroundColor="#efefef"
+                    Clicked="BtnNum1_Clicked"
+                    Text="1" />
+
+                <Button
+                    x:Name="btnNum2"
+                    Grid.Row="3"
+                    Grid.Column="1"
+                    BackgroundColor="#efefef"
+                    Clicked="BtnNum2_Clicked"
+                    Text="2" />
+
+                <Button
+                    x:Name="btnNum3"
+                    Grid.Row="3"
+                    Grid.Column="2"
+                    BackgroundColor="#efefef"
+                    Clicked="BtnNum3_Clicked"
+                    Text="3" />
+
+                <Button
+                    x:Name="btnPlus"
+                    Grid.Row="3"
+                    Grid.Column="3"
+                    BackgroundColor="Orange"
+                    Clicked="BtnPlus_Clicked"
+                    Text="+"
+                    TextColor="White" />
+
+                <Button
+                    x:Name="btnNum0"
+                    Grid.Row="4"
+                    Grid.Column="0"
+                    Grid.ColumnSpan="2"
+                    BackgroundColor="#efefef"
+                    Clicked="BtnNum0_Clicked"
+                    Text="0" />
+
+                <Button
+                    x:Name="btnDoc"
+                    Grid.Row="4"
+                    Grid.Column="2"
+                    BackgroundColor="#efefef"
+                    Clicked="BtnDoc_Clicked"
+                    Text="." />
+
+                <Button
+                    x:Name="btnEquad"
+                    Grid.Row="4"
+                    Grid.Column="3"
+                    BackgroundColor="Orange"
+                    Clicked="BtnEquad_Clicked"
+                    Text="="
+                    TextColor="White" />
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

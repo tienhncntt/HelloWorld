@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="HelloWorld.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:HelloWorld"
+    Title="Hello World">
+    <ScrollView>
+        <StackLayout>
+            <Button
+                Clicked="ManHinhChao_Clicked"
+                HorizontalOptions="Center"
+                Text="Màn hình chào" />
+
+            <Button
+                Clicked="ManHinhTinhTong_Clicked"
+                HorizontalOptions="Center"
+                Text="Màn hình tính tổng" />
+
+            <Button
+                Clicked="StackLayout_Clicked"
+                HorizontalOptions="Center"
+                Text="StackLayout" />
+
+            <Button
+                Clicked="AbsoluteLayout_Clicked"
+                HorizontalOptions="Center"
+                Text="AbsoluteLayout" />
+
+            <Button
+                Clicked="GridLayout_Clicked"
+                HorizontalOptions="Center"
+                Text="GridLayout" />
+
+            <Button
+                Clicked="Login_Clicked"
+                HorizontalOptions="Center"
+                Text="Login" />
+
+            <Button
+                Clicked="FlexLayout_Clicked"
+                HorizontalOptions="Center"
+                Text="FlexLayout" />
+
+            <Button
+                Clicked="ScrollView_Clicked"
+                HorizontalOptions="Center"
+                Text="ScrollView" />
+
+            <Button
+                Clicked="Entry_Clicked"
+                HorizontalOptions="Center"
+                Text="Entry" />
+
+            <Button
+                Clicked="ListView_Clicked"
+                HorizontalOptions="Center"
+                Text="ListView" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
